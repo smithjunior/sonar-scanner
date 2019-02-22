@@ -55,7 +55,7 @@ RUN apk add --update --no-cache \
    imagemagick \
    libbz2 \
    libcurl \
-   libc6-compat \
+   # libc6-compat \
    libevent \
    musl \
    openssh-client \
