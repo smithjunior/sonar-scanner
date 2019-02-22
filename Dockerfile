@@ -24,7 +24,7 @@ RUN apk add --update --no-cache \
    nss \
    xrandr \
    gcompat \
-   lib6c-compat \
+   libc6-compat \
    gcc \
    hicolor-icon-theme \
    ttf-freefont \
@@ -55,7 +55,6 @@ RUN apk add --update --no-cache \
    imagemagick \
    libbz2 \
    libcurl \
-   # libc6-compat \
    libevent \
    musl \
    openssh-client \
