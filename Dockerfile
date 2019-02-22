@@ -23,6 +23,8 @@ RUN apk add --update --no-cache \
    gconf \
    nss \
    xrandr \
+   gcompact \
+   lib6c-compact \
    gcc \
    hicolor-icon-theme \
    ttf-freefont \
