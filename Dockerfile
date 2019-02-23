@@ -45,8 +45,12 @@ RUN apk add --update --no-cache \
    python \
    linux-headers \
    libxdamage \
+   libx11 \
+   expat \
    libxscrnsaver \
    libstdc++ \
+   libxi \
+   cdist \
    binutils-gold \
    gnupg \
    libexif-dev \
@@ -55,7 +59,10 @@ RUN apk add --update --no-cache \
    bash \
    dbus-libs \    
    bison \
+   libstdc++6 \
+   libxcomposite \
    ttf-liberation \
+   fontconfig \
    build-base \
    bzip2 \
    curl \
