@@ -41,6 +41,7 @@ RUN apk add --update --no-cache \
    python \
    linux-headers \
    libxdamage \
+   libxscrnsaver \
    libstdc++ \
    binutils-gold \
    gnupg \
