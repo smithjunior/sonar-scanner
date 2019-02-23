@@ -33,7 +33,7 @@ RUN apk add --update --no-cache \
    gcc \
    hicolor-icon-theme \
    ttf-freefont \
-   chromium \
+   # chromium \
    pango \
    # chromium-doc \
    v4l-utils-libs \
