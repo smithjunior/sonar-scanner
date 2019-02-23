@@ -16,6 +16,10 @@ RUN apk add --update --no-cache \
    sed \ 
    unzip \ 
    nodejs\
+   atk \
+   at-spi2-atk \
+   gtk+3.0 \
+   at-spi2-core \
    npm \
    ca-certificates \
    xdg-utils \
