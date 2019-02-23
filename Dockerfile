@@ -52,7 +52,8 @@ RUN apk add --update --no-cache \
    libexif-dev \
    udev \
    autoconf \
-   bash \    
+   bash \
+   dbus-libs \    
    bison \
    ttf-liberation \
    build-base \
