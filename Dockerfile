@@ -66,8 +66,13 @@ RUN apk add --update --no-cache \
    musl \
    openssh-client \
    openssh \
+   cups-libs \
    python \
    python-dev \
+   cairo \
+   gdk-pixbuf \
+   libxscrnsaver \
+   libxfixes \
    socat \
    stunnel \
    syslinux \
