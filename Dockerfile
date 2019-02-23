@@ -20,6 +20,7 @@ RUN apk add --update --no-cache \
    at-spi2-atk \
    gtk+3.0 \
    at-spi2-core \
+   clang \
    npm \
    ca-certificates \
    xdg-utils \
