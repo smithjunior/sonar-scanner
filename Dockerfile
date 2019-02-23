@@ -54,6 +54,7 @@ RUN apk add --update --no-cache \
    autoconf \
    bash \    
    bison \
+   ttf-liberation \
    build-base \
    bzip2 \
    curl \
@@ -83,16 +84,16 @@ RUN apk add --update --no-cache \
 
 RUN npm install --global npm tsc-watch ntypescript typescript gulp-cli @angular/cli tslint
 
-USER $USER
+#USER $USER
 
-RUN ln -s /usr/bin/chromium-browser /usr/bin/google-chrome
+#RUN ln -s /usr/bin/chromium-browser /usr/bin/google-chrome
 # This line is to tell karma-chrome-launcher where
 # chromium was downloaded and installed to.
-ENV CHROME_BIN /usr/bin/chromium-browser
+#ENV CHROME_BIN /usr/bin/chromium-browser
 
 # Tell Puppeteer to skip installing Chrome.
 # We'll be using the installed package instead.
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
+#ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD true
 # Telling node-sass which pre-built binary to fetch.
 # This way we don't need rebuilding node-sass each time!
 ENV SASS_BINARY_NAME=linux-x64-67
