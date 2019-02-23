@@ -119,9 +119,9 @@ WORKDIR /opt
 RUN curl -o ./sonarscanner.zip -L $SONAR_URL
 RUN unzip sonarscanner.zip 
 RUN rm sonarscanner.zip
-RUN rm -rf /usr/include \
-   && rm -rf /var/cache/apk/* /root/.node-gyp /usr/share/man /tmp/* \
-   && echo
+# RUN rm -rf /usr/include \
+#   && rm -rf /var/cache/apk/* /root/.node-gyp /usr/share/man /tmp/* \
+#   && echo
 # Ensure Sonar Scanner uses openjdk instead of the packaged JRE (which is broken)
 RUN sed -i 's/use_embedded_jre=true/use_embedded_jre=false/g' $SONAR_RUNNER_HOME/bin/sonar-scanner
 
