@@ -77,11 +77,13 @@ RUN apk add --update --no-cache \
    openssh \
    cups-libs \
    python \
+   grep \
    python-dev \
    cairo \
    gdk-pixbuf \
    libxscrnsaver \
    libxfixes \
+   musl-utils \
    socat \
    stunnel \
    syslinux \
