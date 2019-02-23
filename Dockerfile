@@ -40,6 +40,7 @@ RUN apk add --update --no-cache \
    g++\
    python \
    linux-headers \
+   libxdamage \
    libstdc++ \
    binutils-gold \
    gnupg \
