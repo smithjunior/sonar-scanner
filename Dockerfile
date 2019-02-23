@@ -19,6 +19,7 @@ RUN apk add --update --no-cache \
    npm \
    ca-certificates \
    xdg-utils \
+   libxcursor \
    wget \
    gconf \
    nss \
