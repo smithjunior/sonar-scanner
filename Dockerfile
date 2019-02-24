@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM node:11-alpine
 
 LABEL maintainer="Smith Junior <smith.junior@icloud.com>"
 
@@ -19,6 +19,8 @@ RUN apk add --update --no-cache \
    atk \
    at-spi2-atk \
    gtk+3.0 \
+   openjdk8-jre \
+   openjdk8 \   
    at-spi2-core \
    clang \
    npm \
