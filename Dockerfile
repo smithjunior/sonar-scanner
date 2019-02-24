@@ -15,7 +15,7 @@ RUN set -x \
 RUN apk add --update --no-cache \ 
    sed \ 
    unzip \ 
-   nodejs\
+   # nodejs\
    atk \
    at-spi2-atk \
    gtk+3.0 \
@@ -23,7 +23,7 @@ RUN apk add --update --no-cache \
    openjdk8 \   
    at-spi2-core \
    clang \
-   npm \
+   #npm \
    ca-certificates \
    xdg-utils \
    libxcursor \
