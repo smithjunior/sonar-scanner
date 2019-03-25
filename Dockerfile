@@ -60,7 +60,7 @@ RUN apk add --update --no-cache \
    udev \
    autoconf \
    bash \
-   dbus-libs \    
+   dbus-libs \
    bison \
    libstdc++6 \
    libxcomposite \
